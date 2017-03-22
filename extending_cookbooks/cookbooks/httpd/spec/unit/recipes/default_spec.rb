@@ -34,7 +34,7 @@ describe 'httpd::default' do
         expect(chef_run).to create_directory('/srv/apache/admins/html')
       end
 
-      it 'creats the configuration' do
+      it 'creates the configuration' do
         expect(chef_run).to render_file('/etc/httpd/conf.d/admins.conf').with_content('Listen 8080')
       end
 
@@ -48,7 +48,7 @@ describe 'httpd::default' do
         expect(chef_run).to create_directory('/srv/apache/users/html')
       end
 
-      it 'creats the configuration' do
+      it 'creates the configuration' do
         expect(chef_run).to render_file('/etc/httpd/conf.d/users.conf')
       end
 
