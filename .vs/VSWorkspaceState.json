@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\chef-repo",
+    "\\chef-repo\\cookbooks",
+    "\\chef-repo\\cookbooks\\httpd",
+    "\\chef-repo\\cookbooks\\httpd\\recipes",
+    "\\chef-repo\\cookbooks\\myiis_lb",
+    "\\chef-repo\\cookbooks\\myiis_lb\\recipes"
+  ],
+  "SelectedNode": "\\chef-repo\\cookbooks\\myiis_lb\\recipes\\default.rb",
+  "PreviewInSolutionExplorer": false
+}
