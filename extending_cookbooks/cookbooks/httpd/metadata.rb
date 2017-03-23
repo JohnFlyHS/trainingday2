@@ -5,6 +5,7 @@ license 'all_rights'
 description 'Installs/Configures httpd'
 long_description 'Installs/Configures httpd'
 version '0.1.0'
+depends 'ohai'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
